@@ -39,9 +39,9 @@
   <xs:include schemaLocation="PurchaseOrder.xsd" />
   <xs:include schemaLocation="Allocation.xsd" />
 
-  <xs:element name="Responses" type="Response" />
+  <xs:element name="Responses" type="ResponseType" />
   
-  <xs:complexType name="Response">
+  <xs:complexType name="ResponseType">
     <xs:sequence>
       
       <!-- Header -->
